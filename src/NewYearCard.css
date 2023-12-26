@@ -1,0 +1,25 @@
+/* NewYearCard.css */
+
+.new-year-card {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f7f0e3;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  color: #e44d26;
+}
+
+p {
+  color: #333;
+  line-height: 1.5;
+}
+
+p:last-child {
+  margin-top: 20px;
+  font-weight: bold;
+}
