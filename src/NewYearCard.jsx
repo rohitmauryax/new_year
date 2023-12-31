@@ -14,7 +14,7 @@ const NewYearCard = ({ partnerName }) => {
         together!
       </p>
       <p>With all my love,</p>
-      <p>Your Name</p>
+      <p>Rohit</p>
     </div>
   );
 };

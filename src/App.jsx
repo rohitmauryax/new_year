@@ -29,9 +29,7 @@ function App() {
     <div className="App">
       <h1>Ready For New Year!!!!</h1>
       {countdown > 0 && <p>{formatCountdown(countdown)}</p>}
-      {/* {!showCard && <button onClick={handleTap}>Tap</button>}
-      {showCard && <NewYearCard partnerName="Partner's Name" />} */}
-      {countdown === 0 && !showCard && <button onClick={handleTap}>Tap</button>}
+      {!showCard && <button onClick={handleTap}>Tap</button>}
       {showCard && <NewYearCard partnerName="Charis" />}
     </div>
   );
